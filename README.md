@@ -8,9 +8,25 @@
 
 ## How to use this config
 
-Set prettier option in `.prettierrc` or within `package.json` file.
+### Reference it within `package.json` file:
 ```
 {
   "prettier": "@tdsoft/prettier-config"
 }
+```
+
+### Export a string from `.prettierrc.json` file:
+```
+{
+  "@tdsoft/prettier-config"
+}
+```
+
+## How to override
+Import the file in a `.prettierrc.js`, and override desired properties.
+```
+module.exports = {
+  ...require("@tdsoft/prettier-config"),
+  semi: false
+};
 ```
