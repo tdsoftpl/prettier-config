@@ -1,7 +1,7 @@
 {
   "name": "@tdsoft/prettier-config",
   "description": "Prettier config enforcing the TDSOFT code style guidelines.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "repository": "git@github.com:tdsoftpl/prettier-config.git",
   "author": "Adrian Celczyński <adrian.celczynski@tdsoft.com>",
