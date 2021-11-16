@@ -9,7 +9,7 @@
 ## How to use this config
 
 ### Reference it within `package.json` file:
-```json
+```
 {
   "name": "@tdsoft/project-name",
   "description": "Project description.",
